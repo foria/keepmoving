@@ -1,0 +1,244 @@
+
+
+/*Custom Font*/
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  /* Read next point */
+  unicode-range: U+000-5FF;
+  /* Download only latin glyphs */
+  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Medium.woff2') format('woff2'), url('fonts/FuturaPT-Medium.woff') format('woff');
+}
+
+
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  /* Read next point */
+  unicode-range: U+000-5FF;
+  /* Download only latin glyphs */
+  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Heavy.woff2') format('woff2'), url('fonts/FuturaPT-Heavy.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura PT Book';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  /* Read next point */
+  unicode-range: U+000-5FF;
+  /* Download only latin glyphs */
+  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Book.woff2') format('woff2'), url('fonts/FuturaPT-Book.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  /* Read next point */
+  unicode-range: U+000-5FF;
+  /* Download only latin glyphs */
+  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Light.woff2') format('woff2'), url('fonts/FuturaPT-Light.woff') format('woff');
+}
+
+
+/*Font styles*/
+
+h1{
+  font-size:57px;
+  font-family: 'Futura PT',helvetica,arial,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #000;
+}
+
+h2{
+  font-size:21px;
+  font-family: 'Futura PT',helvetica,arial,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #f74a42;
+}
+
+.sixth_section h2{
+  color: #fff;
+  margin-bottom:20px;
+}
+
+h3{
+  font-size:17px;
+  font-family: 'Futura PT',helvetica,arial,sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: #fff;
+}
+
+.sixth_section h3{
+  color: #f74a42;
+  margin-bottom:0px;
+}
+
+
+p {
+  font-size:16px;
+  line-height: 20px;
+  font-family: 'Futura PT',helvetica,arial,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #000;
+}
+
+
+
+
+/*Navbar Styles*/
+.navbar-bg {
+  background-color: #f74a42!important;
+}
+
+.navbar-light .navbar-nav .nav-link{
+  font-size:27px;
+  font-family: 'Futura PT',helvetica,arial,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+#nav-link-services {
+  color: #fff;
+}
+#nav-link-services:hover {
+  color: #000;
+}
+
+#nav-link-stories {
+  color: #77c081;
+}
+#nav-link-stories:hover {
+  color: #000;
+}
+
+#nav-link-clients {
+  color: #88d3e4;
+}
+#nav-link-clients:hover {
+  color: #000;
+}
+
+#nav-link-contacts {
+  color: #000;
+}
+#nav-link-contacts:hover {
+  color: #fff;
+}
+
+.navbar-light .navbar-toggler{
+  border: none;
+}
+
+
+
+
+/*Main Styles*/
+
+.first_section{
+  background-color: #f74a42;
+  padding-top:60px;
+  height:450px;
+}
+
+
+
+.second_section{
+  text-align: center;
+  background-color: #76bf81;
+  padding-top:60px;
+  padding-bottom:40px;
+}
+
+.second_section p {
+max-width: 800px;
+margin-bottom:15px;
+font-size:24px;
+line-height: 30px;
+font-family: 'Futura PT',helvetica,arial,sans-serif;
+font-weight: 900;
+font-style: normal;
+color: #fff;
+}
+
+.third_section{
+background-color: #FFF;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+.serviceimg-container{
+  height:300px;
+  margin-bottom: 20px;
+}
+
+.fourth_section{
+background-color: #000;
+padding-top: 50px;
+padding-bottom: 100px;
+}
+
+.sixth_section{
+background-color: #da91bb;
+padding-top: 35px;
+padding-bottom: 35px;
+}
+
+.seventh_section{
+background-color: #9ed1e2;
+font-size:25px;
+line-height: 30px;
+font-family: 'Futura PT',helvetica,arial,sans-serif;
+font-weight: normal;
+font-style: normal;
+color: #fff;
+padding-top: 60px;
+padding-bottom: 30px;
+}
+
+
+.seventh_section a{
+color: #fff;
+text-decoration: none;
+}
+
+.seventh_section a:hover{
+color: #d9493e;
+text-decoration: none;
+}
+
+.footer {
+background-color: #221e1e;
+font-size:11px;
+line-height: 30px;
+font-family: 'Futura PT',helvetica,arial,sans-serif;
+font-weight: normal;
+font-style: normal;
+color: #fff;
+padding-top: 100px;
+padding-bottom: 200px;
+}
+
+.footer a{
+color: #fff;
+}
+
+.footer a:hover{
+color: #f74a42;
+text-decoration: none;
+}
