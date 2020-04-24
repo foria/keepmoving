@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 /*Custom Font*/
 
@@ -10,7 +12,11 @@
   /* Read next point */
   unicode-range: U+000-5FF;
   /* Download only latin glyphs */
-  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Medium.woff2') format('woff2'), url('fonts/FuturaPT-Medium.woff') format('woff');
+  src: url('../fonts/futurapt-medium.woff2') format('woff2'),
+  url('../fonts/futurapt-medium.woff') format('woff'),
+  url('../fonts/futurapt-medium.eot') format('embedded-opentype'),
+  url('../fonts/futurapt-medium.ttf') format('truetype'),
+  url('../fonts/futurapt-medium.svg') format('svg');
 }
 
 
@@ -23,7 +29,11 @@
   /* Read next point */
   unicode-range: U+000-5FF;
   /* Download only latin glyphs */
-  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Heavy.woff2') format('woff2'), url('fonts/FuturaPT-Heavy.woff') format('woff');
+  src: url('../fonts/futurapt-heavy.woff2') format('woff2'),
+  url('../fonts/futurapt-heavy.woff') format('woff'),
+  url('../fonts/futurapt-heavy.eot') format('embedded-opentype'),
+  url('../fonts/futurapt-heavy.ttf') format('truetype'),
+  url('../fonts/futurapt-heavy.svg') format('svg');
 }
 
 
@@ -35,7 +45,11 @@
   /* Read next point */
   unicode-range: U+000-5FF;
   /* Download only latin glyphs */
-  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Book.woff2') format('woff2'), url('fonts/FuturaPT-Book.woff') format('woff');
+  src: url('../fonts/futurapt-book.woff2') format('woff2'),
+  url('../fonts/futurapt-book.woff') format('woff'),
+  url('../fonts/futurapt-book.eot') format('embedded-opentype'),
+  url('../fonts/futurapt-book.ttf') format('truetype'),
+  url('../fonts/futurapt-book.svg') format('svg');
 }
 
 
@@ -47,7 +61,11 @@
   /* Read next point */
   unicode-range: U+000-5FF;
   /* Download only latin glyphs */
-  src: local('Futura PT'), url('http://www.creativeconnection.it/keepmoving/fonts/FuturaPT-Light.woff2') format('woff2'), url('fonts/FuturaPT-Light.woff') format('woff');
+  src: url('../fonts/futurapt-light.woff2') format('woff2'),
+  url('../fonts/futurapt-light.woff') format('woff'),
+  url('../fonts/futurapt-light.eot') format('embedded-opentype'),
+  url('../fonts/futurapt-light.ttf') format('truetype'),
+  url('../fonts/futurapt-light.svg') format('svg');
 }
 
 
@@ -152,16 +170,14 @@ p {
 
 .first_section{
   background-color: #f74a42;
-  padding-top:60px;
+  padding-top:70px;
   height:450px;
 }
-
-
 
 .second_section{
   text-align: center;
   background-color: #76bf81;
-  padding-top:60px;
+  padding-top:70px;
   padding-bottom:40px;
 }
 
@@ -178,7 +194,7 @@ color: #fff;
 
 .third_section{
 background-color: #FFF;
-padding-top: 50px;
+padding-top: 70px;
 padding-bottom: 50px;
 }
 
@@ -189,13 +205,13 @@ padding-bottom: 50px;
 
 .fourth_section{
 background-color: #000;
-padding-top: 50px;
+padding-top: 70px;
 padding-bottom: 100px;
 }
 
 .sixth_section{
 background-color: #da91bb;
-padding-top: 35px;
+padding-top: 70px;
 padding-bottom: 35px;
 }
 
@@ -207,7 +223,7 @@ font-family: 'Futura PT',helvetica,arial,sans-serif;
 font-weight: normal;
 font-style: normal;
 color: #fff;
-padding-top: 60px;
+padding-top: 70px;
 padding-bottom: 30px;
 }
 
