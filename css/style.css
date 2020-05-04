@@ -174,6 +174,76 @@ p {
   height:450px;
 }
 
+.hombre-animation {
+  width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hombre-animation * {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent center no-repeat;
+  background-size: auto 100%;
+  display: none;
+}
+
+.hombre-animation .show {
+  display: block;
+}
+
+.hombre-animation .step-1 {
+  background-image: url(../img/animation/01_walk.svg);
+}
+
+.hombre-animation .step-2 {
+  background-image: url(../img/animation/02_walk.svg);
+}
+
+.hombre-animation .step-3 {
+  background-image: url(../img/animation/03_walk.svg);
+}
+
+.hombre-animation .step-4 {
+  background-image: url(../img/animation/04_walk.svg);
+}
+
+.hombre-animation .step-5 {
+  background-image: url(../img/animation/05_walk.svg);
+}
+
+.hombre-animation .step-6 {
+  background-image: url(../img/animation/06_walk.svg);
+}
+
+.hombre-animation .step-7 {
+  background-image: url(../img/animation/07_walk.svg);
+}
+
+.hombre-animation .step-8 {
+  background-image: url(../img/animation/08_walk.svg);
+}
+
+.hombre-animation .step-9 {
+  background-image: url(../img/animation/09_walk.svg);
+}
+
+.hombre-animation .step-10 {
+  background-image: url(../img/animation/10_walk.svg);
+}
+
+.hombre-animation .step-11 {
+  background-image: url(../img/animation/11_walk.svg);
+}
+
+.hombre-animation .step-12 {
+  background-image: url(../img/animation/12_walk.svg);
+}
+
 .second_section{
   text-align: center;
   background-color: #76bf81;
