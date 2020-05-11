@@ -84,7 +84,7 @@ h2{
   font-family: 'Futura PT',helvetica,arial,sans-serif;
   font-weight: 900;
   font-style: normal;
-  color: #f74a42;
+  color: #d8493d;
 }
 
 .sixth_section h2{
@@ -101,7 +101,7 @@ h3{
 }
 
 .sixth_section h3{
-  color: #f74a42;
+  color: #d8493d;
   margin-bottom:0px;
 }
 
@@ -147,7 +147,7 @@ a.language:hover{
 
 /*Navbar Styles*/
 .navbar-bg {
-  background-color: #f74a42!important;
+  background-color: #d8493d!important;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -198,7 +198,7 @@ a.language:hover{
 /*Main Styles*/
 
 .first_section{
-  background-color: #f74a42;
+  background-color: #d8493d;
   padding-top:70px;
   height:450px;
 }
@@ -362,6 +362,6 @@ color: #fff;
 }
 
 .footer a:hover{
-color: #f74a42;
+color: #d8493d;
 text-decoration: none;
 }
