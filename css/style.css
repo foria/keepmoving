@@ -115,7 +115,34 @@ p {
   color: #000;
 }
 
+a.language{
+    font-size:16px !important;
+    line-height: 20px !important;
+    font-family: 'Futura PT',helvetica,arial,sans-serif;
+    font-weight: 200 !important;
+    font-style: normal;
+    color: #fff !important;
+}
 
+a.language:hover{
+    color: #000 !important;
+}
+
+.fa-instagram{
+    color:#fff;
+}
+
+.fa-instagram:hover{
+    color:#000;
+}
+
+.fa-spotify{
+    color:#1DB954;
+}
+
+.fa-spotify:hover{
+    color:#000;
+}
 
 
 /*Navbar Styles*/
@@ -163,7 +190,9 @@ p {
   border: none;
 }
 
-
+.side-nav {
+  flex-basis: 5%;
+}
 
 
 /*Main Styles*/
@@ -242,6 +271,14 @@ p {
 
 .hombre-animation .step-12 {
   background-image: url(../img/animation/12_walk.svg);
+}
+
+.hombre-animation .step-13 {
+  background-image: url(../img/animation/13_walk.svg);
+}
+
+.hombre-animation .step-14 {
+  background-image: url(../img/animation/14_walk.svg);
 }
 
 .second_section{
